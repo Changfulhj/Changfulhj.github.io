@@ -1,4 +1,8 @@
 /*首屏颜色灰的解决方案*/
-#page-header:not(.not-top-img):before{
-    background-color: rgba(1, 1, 1,0);
-  }
+#page-header:not(.not-top-img):before {
+  background-color: rgba(1, 1, 1, 0);
+}
+/* 更改分块颜色 */
+.cardHover, .layout > div:first-child:not(.recent-posts), #recent-posts > .recent-post-item, #aside-content .card-widget, .layout > .recent-posts .pagination > *:not(.space) {
+  background: #e6e6e6;
+}
